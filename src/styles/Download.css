@@ -1,0 +1,38 @@
+.download {
+  padding: 60px 0;
+}
+
+.download__content {
+  display: flex;
+  justify-content: center;
+}
+
+.download__button {
+  border: none;
+  margin-right: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.download__button_active {
+  width: 270px;
+  height: 70px;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.download-img {
+  width: 270px;
+  height: 70px;
+}
+
+.download__button_active:hover {
+  box-shadow: rgba(0, 0, 0, 0.49) 0 5px 7px;
+}
+
+@media (max-width: 1000px) {
+  .download__content {
+    flex-direction: column;
+    align-items: center;
+  }
+}

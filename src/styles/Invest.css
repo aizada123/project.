@@ -1,0 +1,19 @@
+.invest {
+    background: #ebf1f4;
+    padding: 50px 0;
+}
+.invest_images {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.invest__content {
+    display: flex;
+}
+
+
+@media (max-width: 1000px) {
+    .invest__content {
+        flex-direction: column;
+    }
+}
